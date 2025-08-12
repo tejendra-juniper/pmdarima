@@ -10,6 +10,7 @@ on:
   pull_request:
     branches:
       - '*'
+  workflow_dispatch:
 
 # Cancel older runs of the same workflow on the same branch
 concurrency:
