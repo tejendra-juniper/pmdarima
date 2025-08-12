@@ -11,7 +11,7 @@ import os
 import platform
 import shutil
 
-from distutils.command.clean import clean as Clean
+from setuptools.command.clean import clean as Clean
 from packaging.version import Version
 from setuptools import find_packages
 import traceback
